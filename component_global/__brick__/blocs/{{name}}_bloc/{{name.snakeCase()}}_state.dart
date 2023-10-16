@@ -35,16 +35,3 @@ class {{name.pascalCase()}}State extends Equatable {
   }
 }
 
-class {{name.pascalCase()}} {
-  final String id;
-
-  {{name.pascalCase()}}({
-    required this.id,
-  });
-
-  factory {{name.pascalCase()}}.fromJson(Map<String, dynamic> json) {
-    return {{name.pascalCase()}}(
-      id: json['id'] ?? "",
-    );
-  }
-}
