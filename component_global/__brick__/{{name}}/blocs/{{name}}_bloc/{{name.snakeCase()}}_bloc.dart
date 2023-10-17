@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 
+import '../../models/{{name.snakeCase()}}.dart';
+
 part '{{name.snakeCase()}}_event.dart';
 part '{{name.snakeCase()}}_state.dart';
 
