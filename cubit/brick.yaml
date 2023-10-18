@@ -1,5 +1,5 @@
-name: bloc
-description: A new brick created with the Mason CLI to create a new bloc.
+name: cubit
+description: A new brick created with the Mason CLI to create a new cubit.
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
